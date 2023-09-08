@@ -1,3 +1,59 @@
-main {
-    background: url();
+* {
+    margin: 0%;
+    padding: 0%;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.link-style {
+    text-decoration: underline;
+}
+
+header {
+    display: block;
+
+}
+
+#showcase-vid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+#logo {
+    float: left;
+    padding: 0.5em;
+    margin-left: 02vw;
+}
+
+nav {
+    float: right;
+}
+
+#navbar>li {
+    float: left;
+}
+
+#contact>li {
+    float: left;
+}
+
+#showcase {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 50%;
+}
+
+.lower-end {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
