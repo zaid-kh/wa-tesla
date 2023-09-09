@@ -14,61 +14,91 @@
   </head>
   <body>
     <main>
-      <header>
+      <section class="screen" id="screen1">
+        <!-- add attributes autoplay loop when you need them -->
         <video
           id="showcase-vid"
           src="/assets/videos/Model-S-Main-Hero-Desktop-LHD-Animation.webm"
-          autoplay
           muted
           loop
+          autoplay
         ></video>
-        <h1 id="logo">TESLA</h1>
-        <nav>
-          <ul id="navbar">
-            <li><a href="/vehicles.html">Vehicles</a></li>
-            <li><a href="/energy.html">Energy</a></li>
-            <li><a href="/charging.html">Charging</a></li>
-            <li><a href="/discover.html">Discover</a></li>
-            <li><a href="/shop.html">Shop</a></li>
-          </ul>
-          <ul id="contact">
-            <li><img src="" alt="" />a</li>
-            <li><img src="" alt="" />b</li>
-            <li><img src="" alt="" />c</li>
-          </ul>
-        </nav>
-      </header>
-      <section id="showcase" class="screen">
-        <section id="showcase-content">
-          <h1>Model S</h1>
-          <p>
-            <strong>From $71,090*</strong>
-            <sub>After Est. Gas Savings</sub>
-          </p>
-        </section>
-        <section class="lower-end">
-          <section id="specs">
-            <ul>
-              <li></li>
-              <li></li>
-              <li>BOTTTOOMMM</li>
-              <li></li>
-              <li><button></button></li>
+        <header>
+          <h1 id="logo"><a href="index.html">TESLA</a></h1>
+          <nav>
+            <ul id="navbar">
+              <li><a href="/vehicles.html">Vehicles</a></li>
+              <li><a href="/energy.html">Energy</a></li>
+              <li><a href="/charging.html">Charging</a></li>
+              <li><a href="/discover.html">Discover</a></li>
+              <li><a href="/shop.html">Shop</a></li>
             </ul>
-          </section>
-          <section id="disclaimer">
+            <ul id="contact">
+              <li><img src="" alt="" />a</li>
+              <li><img src="" alt="" />b</li>
+              <li><img src="" alt="" />c</li>
+            </ul>
+          </nav>
+        </header>
+        <section id="showcase" class="screen">
+          <section class="showcase-content">
+            <h1>Model S</h1>
             <p>
-              *Price before savings is $74,990, excluding taxes and fees.
-              Subject to change.
+              <strong>From $71,090*</strong> <br />
+              <sub>After Est. Gas Savings</sub>
             </p>
-            <a
-              href="https://www.tesla.com/models/design?financeModalTab=gas_savings#overview"
-              class="link-style"
-              >Learn about est. gas savings.</a
-            >
-            <p>Specs displayed are Model S Plaid values.</p>
+          </section>
+          <section class="lower-end">
+            <section id="specs">
+              <ul>
+                <li>
+                  <strong>396 mi</strong> <br /><sub>Range (EPA est.)</sub>
+                </li>
+                <li><strong>1.99 s</strong><br /><sub>0-60 mph* </sub></li>
+                <li><strong>200 mph</strong><br /><sub>Top Speed† </sub></li>
+                <li><strong>1,020 hp</strong><br /><sub>Peak Power</sub></li>
+                <li>
+                  <a href="https://www.tesla.com/models/design" class="btn"
+                    >Order Now</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <section id="disclaimer">
+              <sub>
+                <p>
+                  *Price before savings is $74,990, excluding taxes and fees.
+                  Subject to change.
+                </p>
+                <a
+                  href="https://www.tesla.com/models/design?financeModalTab=gas_savings#overview"
+                  class="link-style"
+                  >Learn about est. gas savings.</a
+                >
+                <p>Specs displayed are Model S Plaid values.</p>
+              </sub>
+            </section>
           </section>
         </section>
+      </section>
+      <section id="screen2">
+        <section class="showcase-content">
+          <p><strong>Interior of the Future</strong></p>
+        </section>
+      </section>
+      <section id="screen3">
+        <section class="showcase-content"></section>
+      </section>
+      <section id="screen4" class="screen">
+        <div class="vid-player">
+          <video
+            id="features-vid"
+            src="/assets/videos/Model-S-Interior-Carousel-1-Cinematic-Display-Desktop-Global.webm"
+            muted
+            autoplay
+            loop
+          ></video>
+        </div>
       </section>
     </main>
   </body>

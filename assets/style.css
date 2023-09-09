@@ -5,15 +5,44 @@
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {}
+
+h1 {
+    font-size: xx-large;
+}
+
+.btn {
+    display: inline-block;
+    font-size: small;
+    color: #333;
+    background: #fff;
+    padding: 1.3vh 3vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .link-style {
     text-decoration: underline;
 }
 
-header {
-    display: block;
+ul {
+    list-style-type: none;
+}
 
+#screen1 {
+    height: 100vh;
+}
+
+header {
+    /* background-color: #333; */
+    overflow: hidden;
+    position: relative;
 }
 
 #showcase-vid {
@@ -25,35 +54,92 @@ header {
 }
 
 #logo {
+    /* t r b l */
+    margin: 2vh 26% 0 2vw;
     float: left;
-    padding: 0.5em;
-    margin-left: 02vw;
 }
 
 nav {
-    float: right;
+    /* background-color: purple; */
+    margin-right: 2%;
+    margin-left: 2%;
+    margin: 2%;
+    float: left;
+    width: 60%;
 }
 
 #navbar>li {
-    float: left;
+    display: inline;
+    margin-right: 2em;
+}
+
+#contact {
+    float: right;
 }
 
 #contact>li {
     float: left;
+    margin-left: 1.5vw;
 }
 
 #showcase {
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    bottom: 50%;
+    height: 60%;
+}
+
+.showcase-content {
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 20%;
 }
 
 .lower-end {
-    position: fixed;
+    /* background-color: blue; */
+    padding: 0.8em;
+    font-weight: 450;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+#screen2 {
+    width: auto;
+    height: 100%;
+}
+
+#specs li {
+    display: inline-block;
+    font-size: x-large;
+    padding: 1em;
+    margin: 1vh;
+}
+
+#screen2 {
+    background-color: black;
+    height: 15vh;
+}
+
+#screen3 {
+    background: url(images/Model-S-Interior-Hero-Desktop-LHD.avif) no-repeat;
+    height: 100vh;
+    background-size: 100%;
+}
+
+#screen4 {
+    background-color: #333;
+}
+
+.vid-player {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    width: 80%;
+    height: 80%;
+    border-radius: 5vw;
+}
+
+#features-vid {
+    object-fit: cover;
 }
